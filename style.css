@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+ 
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1626788383851-428d432f8f2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHdoaXRlJTIwc2t5JTIwcGFyaXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60');
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    background-size: cover; 
+    background-position: top center;
+    font-family: "Comfortaa", sans-serif;
+    margin: 0;
+}
+
+h1{ 
+    font-size: 5rem;
+    margin-top: 11rem;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1; 
+    margin: 0 3rem;
+}
+
+.countodwn-el {
+    text-align: center;
+}
+
+.countodwn-el span{
+    font-size: 1rem;
+}
